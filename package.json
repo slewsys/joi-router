@@ -17,6 +17,7 @@
     "test-cov": "nyc npm run test",
     "ci": "rimraf .nyc_output && npm run lint && npm run test-cov"
   },
+  "type": "module",
   "engines": {
     "node": ">= 12"
   },
